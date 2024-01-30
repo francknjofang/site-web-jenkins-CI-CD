@@ -1,0 +1,10 @@
+[build]
+#localhost ansible_connection=local
+192.168.31.7 ansible_user=baron ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+
+[prod]
+
+192.168.31.8 ansible_user=esiee ansible_ssh_common_args='-o StrictHostKeyChecking=no'
+
+#prod
+#build
